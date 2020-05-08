@@ -3,6 +3,9 @@
 //Get time, from wc3School.
 function startTime() {
 
+  //Name varible for display.
+  let name = document.getElementById('name').innerHTML = "Jeppe";
+
   //Get time form time lib.
   let today = new Date();
   let hour = today.getHours();
@@ -28,19 +31,19 @@ function startTime() {
     if (h < 12) {
       document.body.style.backgroundImage = "url('../img/morning.jpg')";
       document.getElementById("greeting").innerHTML = "God morgon";//Greeting.
-      document.getElementById('name').innerHTML = "Jeppe";//What name you wanna display.
+      name;//What name you wanna display.
       document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
     }
     else if (h < 18) {
-      document.body.style.backgroundImage = "url('../img/day.jpeg')";
+      document.body.style.backgroundImage = "url('../img/day2.jpg')";
       document.getElementById("greeting").innerHTML = "God eftermiddag";//Greeting.
-      document.getElementById('name').innerHTML = "Jeppe";//What name you wanna display.
+      name;//What name you wanna display.
       document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
     }
     else {
       document.body.style.backgroundImage = "url('../img/night.jpeg')";
       document.getElementById("greeting").innerHTML = "God kväll";//Greeting.
-      document.getElementById('name').innerHTML = "Jeppe";//What name you wanna display.
+      name;//What name you wanna display.
       document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
     }
   }
