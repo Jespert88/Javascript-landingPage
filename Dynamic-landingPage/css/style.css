@@ -5,6 +5,7 @@
 }
 
 body {
+    background-size: cover;
     font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
