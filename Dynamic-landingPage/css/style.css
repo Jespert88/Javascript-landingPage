@@ -17,7 +17,7 @@ body {
 }
 
 #time {
-    font-size: 8rem;
+    font-size: 10rem;
 }
 
 h1 {
@@ -29,8 +29,9 @@ h2 {
 }
 
 #tipsTitle {
+    font-size: 25px;
     text-decoration: underline;
-    text-decoration-thickness: 10%;
+    text-decoration-thickness: 8%;
 }
 
 @media(max-width: 700px) {
