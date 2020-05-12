@@ -34,8 +34,14 @@ function startTime() {
       name;//What name you wanna display.
       document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
     }
-    else if (h < 18) {
+    else if (h < 17) {
       document.body.style.backgroundImage = "url('../img/day2.jpg')";
+      document.getElementById("greeting").innerHTML = "God eftermiddag";//Greeting.
+      name;//What name you wanna display.
+      document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
+    }
+    else if (h < 19) {
+      document.body.style.backgroundImage = "url('../img/evevning.jpg')";
       document.getElementById("greeting").innerHTML = "God eftermiddag";//Greeting.
       name;//What name you wanna display.
       document.getElementById('tips').innerHTML = tipsForDay;//Your focus for the day.
